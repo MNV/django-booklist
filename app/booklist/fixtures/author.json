@@ -1,0 +1,142 @@
+[
+  {
+    "model": "booklist.author",
+    "pk": 1,
+    "fields": {
+      "lastname": "Бейдер",
+      "firstname": "Дэн",
+      "patronymic": null,
+      "birth_date": null,
+      "email": "mail@dbader.org",
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.author",
+    "pk": 2,
+    "fields": {
+      "lastname": "Кочер",
+      "firstname": "Парминдер",
+      "patronymic": "Сингх",
+      "birth_date": null,
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.author",
+    "pk": 3,
+    "fields": {
+      "lastname": "Бхаргава",
+      "firstname": "Адитья",
+      "patronymic": null,
+      "birth_date": null,
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.author",
+    "pk": 4,
+    "fields": {
+      "lastname": "Харрисон",
+      "firstname": "Мэтт",
+      "patronymic": null,
+      "birth_date": null,
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.author",
+    "pk": 5,
+    "fields": {
+      "lastname": "Вирт",
+      "firstname": "Никлаус",
+      "patronymic": null,
+      "birth_date": null,
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.author",
+    "pk": 6,
+    "fields": {
+      "lastname": "Моуэт",
+      "firstname": "Эдриен",
+      "patronymic": null,
+      "birth_date": null,
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.author",
+    "pk": 7,
+    "fields": {
+      "lastname": "Кормен",
+      "firstname": "Томас",
+      "patronymic": null,
+      "birth_date": null,
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.author",
+    "pk": 8,
+    "fields": {
+      "lastname": "Лейзерсон",
+      "firstname": "Чарльз",
+      "patronymic": null,
+      "birth_date": null,
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.author",
+    "pk": 9,
+    "fields": {
+      "lastname": "Ривест",
+      "firstname": "Рональд",
+      "patronymic": null,
+      "birth_date": null,
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.author",
+    "pk": 10,
+    "fields": {
+      "lastname": "Штайн",
+      "firstname": "Клиффорд",
+      "patronymic": null,
+      "birth_date": null,
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  }
+]

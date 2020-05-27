@@ -1,0 +1,9 @@
+Django>=3.0,<3.1
+djangorestframework>=3.11,<3.12
+django-environ>=0.4.5,<0.5
+django-admin-autocomplete-filter>=0.5,<0.6
+psycopg2-binary>=2.8.5,<2.9
+watchdog>=0.10.2,<0.20.0
+PyYAML>=5.3.1,<5.4
+argh>=0.26.2,<0.27
+black>=19.10b0,<19.11

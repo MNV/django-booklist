@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block form %}
+    <form class="js-form">
+        {% include 'booklist/select_form.html' with id='book_id' title=form.book.title subjects=form.book.objects subject_selected=form.book.selected %}
+        {% include 'booklist/select_form.html' with id='author_id' title=form.author.title subjects=form.author.objects subject_selected=form.author.selected %}
+    </form>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        {% if not books %}
+            {% include 'booklist/none_info.html' %}
+        {% endif %}
+        {% for book in books %}
+            <h2>{{ book }}</h2>
+            <table class="table table-hover js-table">
+                <colgroup>
+                    <col style="width: 15%;">
+                    <col style="width: 30%;">
+                    <col style="width: 25%;">
+                    <col style="width: 30%;">
+                </colgroup>
+                <thead>
+                <tr>
+                    <th scope="col">Издательство</th>
+                    <th scope="col">Авторы</th>
+                    <th scope="col">ISBN</th>
+                    <th scope="col">Год издания</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <td>{{ book.publishing_house }}</td>
+                    <td>{{ book.authors.all|join:", " }}</td>
+                    <td>{{ book.isbn }}</td>
+                    <td>{{ book.publishing_year }}</td>
+                </tr>
+                </tbody>
+            </table>
+        {% endfor %}
+    </div>
+{% endblock %}

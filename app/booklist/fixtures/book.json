@@ -1,0 +1,93 @@
+[
+  {
+    "model": "booklist.book",
+    "pk": 1,
+    "fields": {
+      "authors": [1],
+      "publishing_house": 2,
+      "title": "Чистый Python. Тонкости программирования для профи",
+      "publishing_year": 2019,
+      "isbn": "9785446108039",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.book",
+    "pk": 2,
+    "fields": {
+      "authors": [2],
+      "publishing_house": 1,
+      "title": "Микросервисы и контейнеры Docker",
+      "publishing_year": 2019,
+      "isbn": "9785970607398",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.book",
+    "pk": 3,
+    "fields": {
+      "authors": [3],
+      "publishing_house": 2,
+      "title": "Грокаем алгоритмы",
+      "publishing_year": 2019,
+      "isbn": "9785446109234",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.book",
+    "pk": 4,
+    "fields": {
+      "authors": [4],
+      "publishing_house": 2,
+      "title": "Как устроен Python",
+      "publishing_year": 2019,
+      "isbn": "9785446109067",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.book",
+    "pk": 5,
+    "fields": {
+      "authors": [5],
+      "publishing_house": 1,
+      "title": "Алгоритмы и структуры данных",
+      "publishing_year": 2019,
+      "isbn": "9785940745846",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.book",
+    "pk": 6,
+    "fields": {
+      "authors": [6],
+      "publishing_house": 1,
+      "title": "Использование Docker",
+      "publishing_year": 2017,
+      "isbn": "9785970604267",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.book",
+    "pk": 7,
+    "fields": {
+      "authors": [7, 8, 9, 10],
+      "publishing_house": 3,
+      "title": "Алгоритмы. Построение и анализ",
+      "publishing_year": 2019,
+      "isbn": "9785907114111",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  }
+]

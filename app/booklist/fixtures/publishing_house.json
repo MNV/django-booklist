@@ -1,0 +1,38 @@
+[
+  {
+    "model": "booklist.publishinghouse",
+    "pk": 1,
+    "fields": {
+      "title": "ДМК",
+      "address": "105094, Москва, Семеновская наб., 3/1 - 4 - 113",
+      "email": "dmkpress.help@gmail.com",
+      "phone": "+7 (499) 322-19-38",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.publishinghouse",
+    "pk": 2,
+    "fields": {
+      "title": "Питер",
+      "address": "Санкт-Петербург, Б. Сампсониевский пр., 29а",
+      "email": "books@piter.com",
+      "phone": "(800) 500 42 17",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+    "model": "booklist.publishinghouse",
+    "pk": 3,
+    "fields": {
+      "title": "Вильямс",
+      "address": "Москва",
+      "email": null,
+      "phone": null,
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  }
+]

@@ -1,0 +1,12 @@
+<div class="form-group">
+    <label for="select-subject">{{ title }}</label>
+    <div class="form-group">
+        <select id="select-subject-{{ id }}" class="select-subject js-select" name="{{ id }}">
+            <option></option>
+            {% for subject in subjects %}
+                <option value="{{ subject.id }}"
+                        {% if subject.id == subject_selected %}selected="selected"{% endif %}>{{ subject }}</option>
+            {% endfor %}
+        </select>
+    </div>
+</div>
