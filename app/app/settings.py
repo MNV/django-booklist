@@ -37,7 +37,6 @@ ENABLE_SSL = env.bool("ENABLE_SSL", False)
 
 ALLOWED_HOSTS = env.list("ALLOWED_HOSTS", default=["*"])
 
-BASE_DOMAIN = env("BASE_DOMAIN")
 REQUEST_SCHEME = env.dict("REQUEST_SCHEME", default="http")
 
 REQUEST_PORT = env("REQUEST_PORT", default=80)
